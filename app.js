@@ -22,7 +22,6 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 const DB = process.env.DATABASE;
-console.log(DB);
 
 mongoose.connect(DB, {
   useNewUrlParser: true,
