@@ -37,6 +37,6 @@ db.once('open', () => {
 app.use(require('./router/auth'));
 
 app.listen(PORT, () => {
-  console.log(`server is on port no`)
+  console.log(`server is on port no ${PORT}`)
 
 })
